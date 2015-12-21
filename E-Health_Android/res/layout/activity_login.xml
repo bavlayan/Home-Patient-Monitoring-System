@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCEAEF"
+    android:orientation="vertical"
+    tools:context="com.trablusgarb.e_healty.Login" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:background="#DCEAEF"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.70"
+        android:background="#DCEAEF"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="Name"
+            android:text=""
+            android:textColor="#666666" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/txt_surname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="Surname"
+            android:text=""
+            android:textColor="#666666" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.24"
+            android:background="#DCEAEF" >
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/radius"
+                android:text="Login" />
+            </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

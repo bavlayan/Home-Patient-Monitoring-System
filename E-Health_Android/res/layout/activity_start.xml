@@ -1,0 +1,385 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCEAEF"
+    android:orientation="vertical"
+    tools:context="com.trablusgarb.e_healty.Start" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_patient_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/bodyposition_icon_1"
+                android:text="Patient Position" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_glucometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/glucometer_icon_1"
+                android:text="Glucometer" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_body_temparature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/temparature_icon_1"
+                android:text="Body Temparature" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_blood_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/bloodplessure_icon_1"
+                android:text="Blood Pressure" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_pulse_oxygen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/blood_icon_1"
+                android:text="Pulse and Oxygen" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_airflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/airflow_icon_1"
+                android:text="Airflow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_galvanic_skin_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/galvnic_icon_1"
+                android:text="Galvanic Skin Response" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_electrocardiogram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/ekg_icon_1"
+                android:text="Electrocardiogram" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_electromygraphy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/radius"
+                android:drawableLeft="@drawable/emg_icon_1"
+                android:text="Electromygraphys" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--
+    <Button
+                android:id="@+id/btn_patient_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/bodyposition_icon_1"
+                android:text="Patient Position" />
+
+  		  
+
+            <Button
+                android:id="@+id/btn_glucometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/glucometer_icon_1"
+                android:text="Glucometer" />
+
+            <Button
+                android:id="@+id/btn_body_temparature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/temparature_icon_1"
+                android:text="Body Temparature" />
+    
+    
+            <Button
+                android:id="@+id/btn_blood_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/bloodplessure_icon_1"
+                android:text="Blood Pressure" />
+
+            <Button
+                android:id="@+id/btn_pulse_oxygen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/blood_icon_1"
+                android:text="Pulse and Oxygen" />
+
+            <Button
+                android:id="@+id/btn_airflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/airflow_icon_1"
+                android:text="Airflow" />
+            
+            <Button
+                android:id="@+id/btn_galvanic_skin_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/galvnic_icon_1"
+                android:text="Galvanic Skin Response" />
+
+            <Button
+                android:id="@+id/btn_electrocardiogram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/ekg_icon_1"
+                android:text="Electrocardiogram" />
+
+            <Button
+                android:id="@+id/btn_electromygraphy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/emg_icon_1"
+                android:text="Electromygraphys" />
+            
+    <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_patient_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableLeft="@drawable/airflow_icon_1"
+                android:text="patient position" />
+
+            <Button
+                android:id="@+id/btn_glucometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="glucometer" />
+
+            <Button
+                android:id="@+id/btn_body_temparature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="body temparature" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_blood_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="blood pressure" />
+
+            <Button
+                android:id="@+id/btn_pulse_oxygen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="pulse and oxygen" />
+
+            <Button
+                android:id="@+id/btn_airflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="airflow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_galvanic_skin_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="galvanic skin response" />
+
+            <Button
+                android:id="@+id/btn_electrocardiogram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="electrocardiogram" />
+
+            <Button
+                android:id="@+id/btn_electromygraphy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:text="electromygraphys" />
+
+        </LinearLayout>
+    -->
+
+</LinearLayout>
